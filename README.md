@@ -65,6 +65,10 @@
 - $exit
 	terminate the shell
 
+## result
+![testapp2](https://user-images.githubusercontent.com/74483608/161239087-aa2b7177-2fb5-4df1-b95b-5f902dc402cb.PNG)  
+testapp2 result
+
 
 ## How to run
 1. make file
