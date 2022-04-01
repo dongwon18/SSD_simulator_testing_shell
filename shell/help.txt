@@ -1,0 +1,36 @@
+==================================
+[implemented command]
+
+$write [index of SSD] [value to be written]
+	index range: 0 ~ 99
+	value: 32 bit  hex value in upper case letter
+	SSD state will be stored in ./ssd/nand.txt
+	example: write 3 0xAAAABBBB
+
+$read [index to be read]
+	index range: 0 ~ 99
+	result will be stored in ./ssd/result.txt
+	example: read 3
+
+$fullwrite [value to be written]
+	write the value to all SSD LBA
+	SSD state will be stored in ./ssd/nand.txt
+	example: fullwrite 0x12345678
+
+$fullread
+	read value of LBA 0 ~ 99
+	result will be stored in ./ssd/result.txt
+	result only include the last result which is the value of LBA 99
+	example: fullread
+
+$testapp[number]
+	run test scenario [number]
+	print result of the test by comparing target answer and real value in LBA
+
+$clear
+	set all LBA value to 0x00000000
+
+$exit
+	terminate the shell
+
+==================================
