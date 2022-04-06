@@ -1,5 +1,5 @@
 ---
-finished_date:2022-04-01
+finished_date: 2022-04-01
 tags:
     - shell_programming
     - linux
