@@ -1,6 +1,6 @@
 ---
-- finished_date:2022-04-01
-- tags:
+finished_date:2022-04-01
+tags:
     - shell_programming
     - linux
     - Ubuntu
